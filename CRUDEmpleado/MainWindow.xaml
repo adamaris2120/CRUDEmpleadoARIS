@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CRUDEmpleado"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="596" Width="368">
     <Grid>
+        <Label Content="Nombre" HorizontalAlignment="Left" Height="27" Margin="68,53,0,0" VerticalAlignment="Top" Width="68"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="64,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Apellido" HorizontalAlignment="Left" Height="26" Margin="68,117,0,0" VerticalAlignment="Top" Width="80"/>
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="64,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164"/>
+        <Label Content="Correo" HorizontalAlignment="Left" Height="25" Margin="68,178,0,0" VerticalAlignment="Top" Width="68"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="64,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <Label Content="Fecha" HorizontalAlignment="Left" Height="23" Margin="68,240,0,0" VerticalAlignment="Top" Width="63"/>
+        <TextBox HorizontalAlignment="Left" Height="29" Margin="66,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <Label Content="Id" HorizontalAlignment="Left" Height="26" Margin="68,302,0,0" VerticalAlignment="Top" Width="68"/>
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="68,333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153"/>
+        <Button Content="Ver" HorizontalAlignment="Left" Height="24" Margin="68,364,0,0" VerticalAlignment="Top" Width="153" Background="#FF15D0AA"/>
+        <Button Content="Agregar" HorizontalAlignment="Left" Height="24" Margin="68,393,0,0" VerticalAlignment="Top" Width="153" Background="#FF85FD25"/>
+        <Button Content="Editar" HorizontalAlignment="Left" Height="24" Margin="68,422,0,0" VerticalAlignment="Top" Width="153" Background="#FF49F11B"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Height="26" Margin="68,451,0,0" VerticalAlignment="Top" Width="153" Background="#FF569C07"/>
 
     </Grid>
 </Window>
